@@ -288,31 +288,31 @@
 
             <div class="form-group">
               <label for="name" title="Cert days to expire">Client Country Name</label>
-              <input type="text" class="form-control" placeholder="UA" pattern="^[A-Za-z]{2}$" id="EasyRSAReqCountry" name="EasyRSAReqCountry" value="{{ .EasyRSA.EasyRSAReqCountry }}">
-              <span class="text-muted">The two-letter DN Organisational field for Country Code (e.g. UA).</span>
+              <input type="text" class="form-control" placeholder="RU" pattern="^[A-Za-z]{2}$" id="EasyRSAReqCountry" name="EasyRSAReqCountry" value="{{ .EasyRSA.EasyRSAReqCountry }}">
+              <span class="text-muted">The two-letter DN Organisational field for Country Code (e.g. RU).</span>
             </div>
 
             <div class="form-group">
               <label for="name" title="EASYRSA_REQ_PROVINCE">Client State or Region Name</label>
-              <input type="text" class="form-control" placeholder="KY" pattern="^[A-Za-z]{2}$" id="EasyRSAReqProvince" name="EasyRSAReqProvince" value="{{ .EasyRSA.EasyRSAReqProvince }}">
-              <span class="text-muted">The two-letter DN Organisational field for province code (e.g. KY for "Kyiv region").</span>
+              <input type="text" class="form-control" placeholder="RU" pattern="^[A-Za-z]{2}$" id="EasyRSAReqProvince" name="EasyRSAReqProvince" value="{{ .EasyRSA.EasyRSAReqProvince }}">
+              <span class="text-muted">The two-letter DN Organisational field for province code (e.g. RU for "Russia region").</span>
             </div>
 
             <div class="form-group">
               <label for="name" title="EASYRSA_REQ_CITY">Client City Name</label>
-              <input type="text" class="form-control" placeholder="Kyiv" id="EasyRSAReqCity" name="EasyRSAReqCity" value="{{ .EasyRSA.EasyRSAReqCity }}">
+              <input type="text" class="form-control" placeholder="Moscow" id="EasyRSAReqCity" name="EasyRSAReqCity" value="{{ .EasyRSA.EasyRSAReqCity }}">
               <span class="text-muted">The city of DN Organisation.</span>
             </div>
 
             <div class="form-group">
               <label for="name" title="EASYRSA_REQ_ORG">Client Organisation</label>
-              <input type="text" class="form-control" placeholder="SweetHome" id="EasyRSAReqOrg" name="EasyRSAReqOrg" value="{{ .EasyRSA.EasyRSAReqOrg }}">
+              <input type="text" class="form-control" placeholder="Company" id="EasyRSAReqOrg" name="EasyRSAReqOrg" value="{{ .EasyRSA.EasyRSAReqOrg }}">
               <span class="text-muted">The Client name of DN Organisation.</span>
             </div>
 
             <div class="form-group">
               <label for="name" title="EASYRSA_REQ_OU">Client Organisation Unit Name</label>
-              <input type="text" class="form-control" placeholder="GarageVPN" id="EasyRSAReqOu" name="EasyRSAReqOu" value="{{ .EasyRSA.EasyRSAReqOu }}">
+              <input type="text" class="form-control" placeholder="ProdVPN" id="EasyRSAReqOu" name="EasyRSAReqOu" value="{{ .EasyRSA.EasyRSAReqOu }}">
               <span class="text-muted">The Client Organisational Unit of DN Organisation.</span>
             </div>
 
